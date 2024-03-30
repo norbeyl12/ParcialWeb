@@ -1,0 +1,90 @@
+.container {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #1aebb6 35%, transparent 35%);
+}
+
+.containerlogin {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.Needhelp {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+}
+
+.logo {
+  background-color: #1aebb6;
+  text-align: center;
+  width: 35%;
+  height: 100%;
+  position: relative;
+}
+.logoContenido {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.Login {
+  text-align: center;
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+
+.loginContenido {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.entrada {
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.emailPassword{
+  text-align: left;
+}
+.forgot{
+  text-align: right;
+}
+.button {
+  background-color: #1aebb6;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
