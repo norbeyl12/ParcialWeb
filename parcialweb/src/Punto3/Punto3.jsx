@@ -18,32 +18,25 @@ function App() {
 
   return (
     <div className="container">
-       <div>
-      <Agregarcontactos />
-    </div>
+      <div>
+        <Agregarcontactos />
+      </div>
       <h2>Contactos usuarios</h2>
       <div className="grid-container">
-
-        
-      {contactos?.map((data) => (
-        <div class="card-container">
-        <div class="card" key={data.identify}>
-          <img src={data.image} alt="" class="card-image" />
-          <div class="card-content">
-            <p class="card-info">Identify: {data.identify}</p>
-            <p class="card-info">Name: {data.names}</p>
-            <p class="card-info">Telephone: {data.telephone}</p>
+        {contactos?.map((data) => (
+          <div className="card-container">
+            <div className="card" key={data.identify}>
+              <img src={data.image} alt="" className="card-image" />
+              <div className="card-content">
+                <p className="card-info">Identify: {data.identify}</p>
+                <p className="card-info">Name: {data.names}</p>
+                <p className="card-info">Telephone: {data.telephone}</p>
+              </div>
+            </div>
           </div>
-        </div>
+        ))}
       </div>
-      
-
-        
-      ))}
-      </div>
-    </div>  
-
-  
+    </div>
   );
 }
 
